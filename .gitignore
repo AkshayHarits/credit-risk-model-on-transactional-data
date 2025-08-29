@@ -1,0 +1,43 @@
+FinShield Project Git Ignore File
+=============== Generated Files ===============
+Ignore generated data files
+/data/
+
+
+Ignore generated model and scaler files
+/models/anomaly_model.joblib
+/models/scaler.joblib
+/models/geo_clusterer.joblib
+
+=============== Python & Virtual Environments ===============
+Virtual environment directory as specified in the README
+/venv/
+
+Compiled Python files
+pycache/
+*.pyc
+
+Distribution and packaging
+dist/
+build/
+*.egg-info/
+
+Jupyter Notebook files
+.ipynb_checkpoints
+
+=============== IDE & OS Files ===============
+macOS
+.DS_Store
+
+Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+Visual Studio Code
+.vscode/
+
+=============== Streamlit-specific Files ===============
+Streamlit may create a local cache for files
+.streamlit/

@@ -1,0 +1,12 @@
+# requirements.txt
+
+pandas
+scikit-learn
+xgboost==1.7.6
+shap
+numba
+numpy==2.2.0
+joblib
+streamlit
+matplotlib
+plotly
