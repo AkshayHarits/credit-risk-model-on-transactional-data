@@ -1,6 +1,6 @@
 # Anomaly-Based Credit Risk Assessment
 
-## 🎯 Project Overview
+## Project Overview
 
 This data science project addresses a critical challenge in modern finance: **assessing the creditworthiness of the "credit invisible" population**. Traditional credit scoring relies on historical data that millions of individuals lack. Our solution uses unsupervised anomaly detection on alternative financial transaction data to bridge this gap.
 
@@ -10,26 +10,26 @@ This data science project addresses a critical challenge in modern finance: **as
 - **Transparency-first**: Every prediction is fully explainable using SHAP (SHapley Additive exPlanations)
 - **Objective scoring**: Produces intuitive 0-100 credit risk scores without human bias
 
-## 🔬 Methodological Journey
+## Methodological Journey
 
 Our approach evolved through rigorous experimentation:
 
-### ❌ Attempt 1: Supervised Learning (Abandoned)
+### Attempt 1: Supervised Learning (Abandoned)
 - **Goal**: Predict pre-existing "fraud" labels
 - **Issue**: Over 98% of active users incorrectly tagged as high-risk
 - **Result**: Target variable proved useless for meaningful credit assessment
 
-### ❌ Attempt 2: Unsupervised Clustering (Abandoned)  
+### Attempt 2: Unsupervised Clustering (Abandoned)  
 - **Method**: Gaussian Mixture Models (GMM) for behavioral personas
 - **Issue**: Required subjective human interpretation of clusters
 - **Result**: Violated core objective of maintaining objectivity
 
-### ✅ Final Approach: Anomaly Detection (Successful)
+### Final Approach: Anomaly Detection (Successful)
 - **Method**: Isolation Forest algorithm
 - **Advantage**: Measures behavioral deviation directly
 - **Benefits**: Objective, granular, individually-scored, and natively explainable
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 anomaly-based-credit-risk/
@@ -56,7 +56,7 @@ anomaly-based-credit-risk/
 └── README.md                  # This file
 ```
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone Repository
 ```bash
@@ -81,7 +81,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 📊 Data Download & Setup
+## Data Download & Setup
 
 > **Important**: Due to file size constraints, the primary dataset is not included in the repository.
 
@@ -89,7 +89,7 @@ pip install -r requirements.txt
 2. **Extract** the `transactions_data.csv` file
 3. **Place** it in the `anomaly-based-credit-risk/data/` directory
 
-## 🏃‍♂️ How to Run
+## How to Run
 
 ### Step 1: Data Preparation & Feature Engineering
 ```bash
@@ -117,38 +117,38 @@ streamlit run dashboard.py
 ```
 **Then:** Open your browser to the displayed URL (typically `http://localhost:8501`)
 
-## 📈 Dashboard Features
+## Dashboard Features
 
-### 🎯 Dynamic Risk Scoring
+### Dynamic Risk Scoring
 - **Interactive gauge**: Displays user's 0-100 credit risk score in real-time
 - **Business controls**: Sidebar slider for loan officers to set risk thresholds
 - **Instant decisions**: Generate "Accept" or "Reject" recommendations
 
-### 👤 User Insights
+### User Insights
 - **Profile summary**: Key demographic and financial details
 - **Behavioral analysis**: Transaction patterns and spending habits
 
-### 🔍 Explainable AI
+### Explainable AI
 - **Individual risk drivers**: SHAP waterfall plots break down feature contributions
 - **Global feature importance**: Model-wide behavioral weightings
 - **Full transparency**: Every prediction is completely explainable
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
-### 🎛️ Model Optimization
+### Model Optimization
 - **Hyperparameter tuning**: Implement Bayesian optimization (e.g., Optuna)
 - **Algorithm exploration**: Experiment with Variational Autoencoders (VAEs)
 
-### 🛠️ Feature Engineering
+### Feature Engineering
 - **Time-series features**: Transaction velocity and cyclical patterns
 - **Advanced behavioral metrics**: Payroll alignment and seasonal spending
 
-### 🚀 Production Deployment
+### Production Deployment
 - **REST API**: Wrap scoring logic in FastAPI for programmatic access
 - **Scalable architecture**: Cloud deployment for high-volume scoring
 - **Real-time processing**: Stream processing for live risk assessment
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues & Solutions
 
@@ -164,14 +164,14 @@ streamlit run dashboard.py
 - **Verify file structure**: Ensure all directories match the project structure
 - **Environment issues**: Try recreating the virtual environment
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Here's how to get involved:
 
-1. **🐛 Report bugs**: Open an issue with detailed error descriptions
-2. **💡 Suggest features**: Submit enhancement requests via GitHub issues  
-3. **🔧 Submit code**: Fork, create a feature branch, and submit a pull request
-4. **📚 Improve docs**: Help us make the documentation even better
+1. **Report bugs**: Open an issue with detailed error descriptions
+2. **Suggest features**: Submit enhancement requests via GitHub issues  
+3. **Submit code**: Fork, create a feature branch, and submit a pull request
+4. **Improve docs**: Help us make the documentation even better
 
 ### Development Guidelines
 - **Modular design**: Changes in one module shouldn't break others
@@ -179,18 +179,18 @@ We welcome contributions! Here's how to get involved:
 - **Testing**: Include unit tests for new features
 - **Documentation**: Update README for significant changes
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🏆 Key Achievements
+## Key Achievements
 
-- ✅ **Objective risk assessment** without relying on flawed historical labels
-- ✅ **Fully explainable predictions** using state-of-the-art SHAP technology  
-- ✅ **Scalable architecture** ready for production deployment
-- ✅ **Interactive dashboard** for real-time risk evaluation
-- ✅ **Robust methodology** validated through iterative experimentation
+- **Objective risk assessment** without relying on flawed historical labels
+- **Fully explainable predictions** using state-of-the-art SHAP technology  
+- **Scalable architecture** ready for production deployment
+- **Interactive dashboard** for real-time risk evaluation
+- **Robust methodology** validated through iterative experimentation
 
 ---
 
-*Built with ❤️ for financial inclusion and responsible lending practices.*
+*Built with heart for financial inclusion and responsible lending practices.*
