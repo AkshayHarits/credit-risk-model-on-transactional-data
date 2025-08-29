@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 > **Important**: Due to file size constraints, the primary dataset is not included in the repository.
 
-1. **Download the dataset** from Kaggle: [transactions-fraud-datasets](https://www.kaggle.com/datasets/kartik2112/fraud-ecommerce-data)
+1. **Download the dataset** from Kaggle: [transactions-datasets](https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data)
 2. **Extract** the `transactions_data.csv` file
 3. **Place** it in the `anomaly-based-credit-risk/data/` directory
 
