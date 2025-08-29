@@ -179,10 +179,6 @@ We welcome contributions! Here's how to get involved:
 - **Testing**: Include unit tests for new features
 - **Documentation**: Update README for significant changes
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Key Achievements
 
 - **Objective risk assessment** without relying on flawed historical labels
