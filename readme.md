@@ -222,10 +222,22 @@ Where:
 - **Key Drivers**: Age-cushion interaction, high DTI ratio
 - **Insight**: Advanced age + weak financial cushion = compound risk
 
+![User 80 Risk Score Dashboard](images/user_80_risk_dashboard.png)
+*Figure 1: Risk assessment dashboard showing User 80's high-risk profile with detailed score breakdown and risk factors*
+
+![User 80 SHAP Analysis](images/user_80_shap_analysis.png)
+*Figure 2: SHAP waterfall plot for User 80 showing feature contributions to the final risk score of 72*
+
 ### Low-Risk "Good Outlier" (User 460)
 - **Final Score**: 18 (Low Risk)
 - **Profile**: Statistically anomalous but financially healthy
 - **Adjustment**: Logical engine applied discount for strong savings behavior
+
+![User 460 Risk Score Dashboard](images/user_460_risk_dashboard.png)
+*Figure 3: Risk assessment dashboard for User 460 demonstrating how the model correctly identifies a "good outlier" with low risk*
+
+![User 460 SHAP Analysis](images/Screenshot 2025-09-01 161235.png)
+*Figure 4: SHAP waterfall plot for User 460 illustrating the logical adjustments applied to prevent penalizing financially healthy anomalous behavior
 
 ## Future Enhancements
 
