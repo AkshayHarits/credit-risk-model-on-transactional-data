@@ -233,10 +233,10 @@ Where:
 - **Profile**: Statistically anomalous but financially healthy
 - **Adjustment**: Logical engine applied discount for strong savings behavior
 
-![User 460 Risk Score Dashboard](images/user_460_risk_dashboard.png)
+![User 460 Risk Score Dashboard](images/Screenshot 2025-09-01 161235.png)
 *Figure 3: Risk assessment dashboard for User 460 demonstrating how the model correctly identifies a "good outlier" with low risk*
 
-![User 460 SHAP Analysis](images/Screenshot 2025-09-01 161235.png)
+![User 460 SHAP Analysis](images/user_460_shap_analysis.png)
 *Figure 4: SHAP waterfall plot for User 460 illustrating the logical adjustments applied to prevent penalizing financially healthy anomalous behavior
 
 ## Future Enhancements
